@@ -17,6 +17,7 @@ public class DemoApplication {
 	}
 	@RequestMapping("/test")
 	public String test(){
+		
 		return girlProperties.getAge();
 	}
 }
